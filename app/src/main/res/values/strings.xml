@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Aplication 2</string>
+    <string name="navigation_drawer_open">1</string>
+    <string name="navigation_drawer_close">0</string>
+    <string name="button_1">Fragment Satu</string>
+    <string name="button_2">Fragment Dua</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment_satu">Hello blank fragment satu</string>
+    <string name="hello_blank_fragment_dua">Hello blank fragment dua</string>
+</resources>

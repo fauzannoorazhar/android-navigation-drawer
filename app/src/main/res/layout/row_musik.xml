@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/cover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dont Let Me Down"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp"
+        android:layout_toRightOf="@+id/cover"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/artis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Joy Wiliams"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_below="@id/judul"
+        android:layout_toRightOf="@id/cover"
+        android:paddingLeft="5dp"/>
+
+</RelativeLayout>
