@@ -1,2 +1,1 @@
-# android-navigation-drawer
-Android Drawer with an Fragment
+# Example Android Navigation Drawer With an Fragment
