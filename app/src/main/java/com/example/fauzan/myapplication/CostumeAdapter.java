@@ -7,15 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.BaseAdapter;
 
 import java.util.ArrayList;
 
 public class CostumeAdapter extends ArrayAdapter<Musik> {
-    private String[] judul;
-    private String[] artis;
-    private Integer[] gambar;
-    private Activity activity;
 
     public CostumeAdapter(Activity context, ArrayList<Musik> musikList){
         super(context, 0, musikList);
