@@ -1,16 +1,11 @@
 package com.example.fauzan.myapplication;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -35,15 +30,15 @@ public class SatuFragment extends Fragment {
 
         ArrayList<Musik> musikList = new ArrayList<Musik>();
         musikList.add(new Musik("Dekat Di Hati","Ran", R.drawable.ic_music));
-        musikList.add(new Musik("Dekat Di Hati","Endah N Resha", R.drawable.ic_music));
-        musikList.add(new Musik("Dekat Di Hati","Rizky Febrian", R.drawable.ic_music));
-        musikList.add(new Musik("Dekat Di Hati","Hanin Dhiya", R.drawable.ic_music));
-        musikList.add(new Musik("Dekat Di Hati","Ten 2 Five", R.drawable.ic_music));
-        musikList.add(new Musik("Dekat Di Hati","Hivi", R.drawable.ic_music));
+        musikList.add(new Musik("When You Love Someone","Endah N Resha", R.drawable.ic_music));
+        musikList.add(new Musik("Cukup Tau","Rizky Febrian", R.drawable.ic_music));
+        musikList.add(new Musik("Kau Yang Sembunyi","Hanin Dhiya", R.drawable.ic_music));
+        musikList.add(new Musik("I Will Fly","Ten 2 Five", R.drawable.ic_music));
+        musikList.add(new Musik("Mata Ke Hati","Hivi", R.drawable.ic_music));
 
-        CostumeAdapter costumeAdapter = new CostumeAdapter(getActivity(), musikList);
+        MusikAdapter musikAdapter = new MusikAdapter(getActivity(), musikList);
         ListView listView = (ListView) view.findViewById(R.id.lvFragmentSatu);
-        listView.setAdapter(costumeAdapter);
+        listView.setAdapter(musikAdapter);
 
         return view;
 

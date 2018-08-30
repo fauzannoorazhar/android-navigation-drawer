@@ -8,7 +8,7 @@
     android:id="@+id/relativeLayout">
 
     <ImageView
-        android:id="@+id/cover"
+        android:id="@+id/ivCover"
         android:layout_width="91dp"
         android:layout_height="66dp"
         android:src="@mipmap/ic_launcher"
@@ -16,25 +16,25 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/judul"
+        android:id="@+id/tvJudul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dont Let Me Down"
+        android:text="Judul Musik"
         android:textColor="@color/colorPrimary"
         android:textSize="25dp"
         android:paddingLeft="5dp"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/cover" />
+        app:layout_constraintLeft_toRightOf="@+id/ivCover" />
 
     <TextView
-        android:id="@+id/artis"
+        android:id="@+id/tvArtis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Joy Wiliams"
+        android:text="Artis"
         android:textColor="@color/colorPrimary"
         android:textSize="20dp"
         android:paddingLeft="5dp"
-        app:layout_constraintLeft_toRightOf="@id/cover"
-        app:layout_constraintTop_toBottomOf="@id/judul" />
+        app:layout_constraintLeft_toRightOf="@id/ivCover"
+        app:layout_constraintTop_toBottomOf="@id/tvJudul" />
 
 </android.support.constraint.ConstraintLayout>
