@@ -1,5 +1,6 @@
 package com.example.fauzan.myapplication;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -65,6 +66,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, duaFragment).commit();
                 getSupportFragmentManager().popBackStack();
                 break;
+            case R.id.nav_tentang:
+                Intent intent = new Intent(this, TentangActivity.class);
+                startActivity(intent);
         }
 
         DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);

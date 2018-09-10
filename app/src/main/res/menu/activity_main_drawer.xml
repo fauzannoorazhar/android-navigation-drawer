@@ -10,6 +10,9 @@
         <item
             android:id="@+id/nav_fragment_dua"
             android:title="Fragment Dua" />
+        <item
+            android:id="@+id/nav_tentang"
+            android:title="Tentang Activity"/>
     </group>
 
     <item android:title="Communicate">
